@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Start Button -->
+    <button id="start-button" onclick="startGame()">Start Game</button>
+
+    <!-- Story Bubbles -->
+    <div class="story-bubble" id="bubble1">
+        <p id="story-text">Welcome to the game! Let's begin...</p>
+    </div>
+
+    <!-- Player's Choices -->
+    <div class="start-options" id="options">
+        <button onclick="chooseOption(1)">Option 1: Head to the store</button>
+        <button onclick="chooseOption(2)">Option 2: Check your phone</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
